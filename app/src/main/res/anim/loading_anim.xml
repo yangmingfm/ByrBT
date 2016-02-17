@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+author:Remex Huang
+website:feelyou.info
+-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="1800"
+    android:toDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toYDelta="0" >
+</rotate>

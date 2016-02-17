@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <item type="id" format="string" name="buttonlayout">buttonlayout</item>
+        <item type="id" format="string" name="textviewlayout">textviewlayout</item>
+        <item type="id" format="string" name="viewpager">viewpager</item>
+        <item type="id" format="string" name="viewpagerlayout">viewpagerlayout</item>
+</resources>

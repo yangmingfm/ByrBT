@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BT夹子</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_agree">"ok"</string>
+    <string name="dialog_disagree">"Cancel"</string>
+    <string name="dialog_introduction">"你好，感谢你使用BT夹子:)\n这是一款纯公益性质的软件，用了一个月完成，编辑部那部分由于原网页实在难爬，所以还要手动写到服务器上,作者为了她最近才开始复习通信网、通原2...感觉要跪了...\n\n但是个人认为这个软件还是很实用的，所以如果你觉得这软件还行的话，还请点击分享到朋友圈分享给周围的同学,或者用浏览器（注意，不是微信）扫描即可下载，也可以百度"BT夹子"，可能收不到，因为应用刚刚提交，不知何时通过审核\n\n最后，有事可以联系ymjkMaster@163.com 或者在软件“提个建议”里发给我。"</string>
+    <string name="fragment_selector_item1">"首页"</string>
+    <string name="fragment_selector_item2">"全部"</string>
+    <string name="fragment_selector_item3">"电影"</string>
+    <string name="fragment_selector_item4">"剧集"</string>
+    <string name="fragment_selector_item5">"动漫"</string>
+    <string name="fragment_selector_item6">"音乐"</string>
+    <string name="fragment_selector_item7">"综艺"</string>
+    <string name="fragment_selector_item8">"游戏"</string>
+    <string name="fragment_selector_item9">"软件"</string>
+    <string name="fragment_selector_item10">"资料"</string>
+    <string name="fragment_selector_item11">"体育"</string>
+    <string name="fragment_selector_item12">"记录"</string>
+    <string name="fragment_selector_item13">"收藏"</string>
+    <string name="suggestion_indicator_string">"如果可以的话，请留下您的邮箱等联系方式"</string>
+    <string name="fragment_selector_indicator">"首页可以设置3到5个标签，标签排列顺序即为点击的顺序 :)"</string>
+    <string name="introduction_software1">"你好，欢迎使用BT夹子:)\n下面来看看BT夹子的功能:\n1.方便、快速地浏览最新的北邮人BT信息。\n不用看一堆密密麻麻的种子列表了，上课、睡前、蹲坑各种无聊场合刷一刷。\n2.收藏.\n当看到想下的种子之后，你可以点击五角星收藏，收藏后的种子可以在账户的收藏页面看到（网页版和客户端版均可看到），如下图，"</string>
+    <string name="introduction_software2">"这样，你在客户端看到喜欢的种子就能在PC上方便快速的找到。\n3.首页设置.\n你可以在首页设置里，顺序选出你希望看的种子种类，标签顺序和点击顺序一致。\n4.编辑部浏览功能\n\n同时，在以后的版本中我们将添加更多的功能，比如搜索功能，种子订阅功能，所以请你随时注意更新哦！\n\nBUG与TIPS：\n\n1.在使用软件的过程中，软件会自动截取Cookie的一部分（注意，不是全部）经过MD5加密，以及你点的种子名字上传至服务器，对天发誓没啥阴谋(加密之后啥也看不出来)，只是想统计一下种子的点击情况，况且服务器端看到的只会是一段Cookie乱码的片段(用于区分不同的用户)以及种子的名字。\n\n 2.你可能会经常遇到种子图片加载不出来的情况，考完试后我将尽力解决:) \n\n 3.收藏的种子是按种子发布的时间进行排序的，不是按收藏时间进行排序的，一些老的种子收藏后可能会淹没在茫茫种子种，所以请定期清理收藏列表。\n\n  4.编辑部信息由于网页版内容实在不好爬，所以编辑部这块是人工弄到外网服务器上的、所以可能会出现误差、并且要连外网才能看到。\n\n  5.由于软件初期BUG、不足较多，还请谅解并随时注意软件更新推送。"</string>
+</resources>

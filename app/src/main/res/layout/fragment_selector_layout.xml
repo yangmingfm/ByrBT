@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/indicator1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/douban_green"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingTop="5dp"
+        android:text="@string/fragment_selector_indicator"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="首页"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox0" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="编辑部"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox1" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="全部"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox2" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="收藏"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox3" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="电影"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox4" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="剧集"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox5" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="动漫"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox6" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="音乐"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox7" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="综艺"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox8" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:text="游戏"
+                android:id="@+id/checkbox9" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="软件"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox10" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="资料"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox11" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="体育"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox12" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:text="记录"
+                android:shadowColor="@color/douban_green"
+                android:textColor="@color/douban_green"
+                android:id="@+id/checkbox13" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

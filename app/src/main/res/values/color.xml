@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_blue">#ff1e88e5</color>
+    <color name="white">#f6efef</color>
+    <color name="pure_white">#ffffff</color>
+    <color name="douban_green">#009688</color>
+    <color name="pure_black">#000000</color>
+    <color name="light_black">#222222</color>
+    <color name="pressed_color">#11000000</color>
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_introduction" android:title="说明书"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="首页设置"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_logout" android:title="登出"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_suggestion" android:title="提些建议"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_aboutme" android:title="软件与作者"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_share" android:title="分享到朋友圈"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

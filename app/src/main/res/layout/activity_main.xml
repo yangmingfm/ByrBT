@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <android.support.v4.view.ViewPager
+        android:id="@id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        >
+    </android.support.v4.view.ViewPager>
+    <com.example.aboutView.MyMainActivityScrollView
+        android:id="@+id/scroView_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <include android:id="@+id/toolbar1" layout="@layout/toolbar_layout"></include>
+            <com.astuetz.PagerSlidingTabStrip
+                android:id="@+id/tabstrip"
+                android:layout_marginTop="-2dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/toolbar1"
+                android:fillViewport="false"></com.astuetz.PagerSlidingTabStrip>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/icon_bt_e"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabstrip"
+                android:layout_marginTop="-2dp"
+                android:src="@drawable/divider_jianbian3"/>
+        </RelativeLayout>
+    </com.example.aboutView.MyMainActivityScrollView>
+</RelativeLayout>
+

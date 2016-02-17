@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        applicationId "com.example.ymjkmaster.byrbta"
+        minSdkVersion 12
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+}
+repositories {
+    jcenter()
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/jsoup-1.8.2.jar')
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile 'com.android.support:cardview-v7:22.1.1'
+    compile 'com.android.support:recyclerview-v7:22.1.1'
+    compile files('libs/Volley.jar')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.afollestad:material-dialogs:0.7.4.2'
+    compile 'com.rengwuxian.materialedittext:library:2.1.3'
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    compile files('libs/libammsdk.jar')
+}
